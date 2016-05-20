@@ -2919,16 +2919,19 @@ h1 {
   font-size: 38px; }
 
 h2 {
-  font-size: 21px; }
+  font-size: 24px;
+  line-height: 32pt; }
 
 h3 {
-  font-size: 18px; }
+  font-size: 24px;
+  line-height: 32pt; }
 
 p {
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 24px;
+  line-height: 32pt;
   text-align: center; }
 
 ul {
@@ -2937,7 +2940,11 @@ ul {
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 21px; }
+  font-size: 24px;
+  line-height: 32pt; }
+
+li {
+  padding: 0; }
 
 img.logo {
   display: block;
