@@ -2884,7 +2884,9 @@ body {
       .top-bar ul li a {
         color: #fefefe;
         text-align: center;
-        font-family: 'BrandonTextWeb-Medium', helvetica, sans-serif;
+        font-family: "brandon-grotesque",sans-serif;
+        font-style: normal;
+        font-weight: 700;
         text-transform: uppercase;
         font-size: 14px; }
       .top-bar ul li a:hover, .top-bar ul li a:focus {
@@ -2901,8 +2903,11 @@ body {
   /*same height as header*/
   visibility: hidden; }
 
-h1, h2, h3, h4, h5, h6, p {
-  text-align: center; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "brandon-grotesque",sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700; }
 
 h1, h2 {
   font-family: "brandon-grotesque",sans-serif;
@@ -2916,11 +2921,15 @@ h1 {
 h2 {
   font-size: 21px; }
 
+h3 {
+  font-size: 18px; }
+
 p {
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 21px; }
+  font-size: 21px;
+  text-align: center; }
 
 ul {
   list-style: none;
@@ -2933,6 +2942,14 @@ ul {
 img.logo {
   display: block;
   margin: 120px auto; }
+
+.circle {
+  display: block;
+  margin: 20px auto;
+  text-align: center; }
+
+.circle img {
+  margin-bottom: 20px; }
 
 .header {
   background: #ccc;
