@@ -2864,4 +2864,37 @@ VIEWPOINT STYLES
 
 ********************************************/
 body {
-  background-color: #242F6B; }
+  background-color: #242F6B;
+  padding-top: 60px; }
+
+#main-menu {
+  position: fixed;
+  top: 0;
+  z-index: 9998;
+  height: 50px; }
+
+.top-bar {
+  background: rgba(0, 0, 0, 0.2); }
+  .top-bar ul {
+    background: transparent; }
+    .top-bar ul li {
+      background: transparent; }
+      .top-bar ul li a {
+        color: #fefefe;
+        text-align: center;
+        font-family: 'BrandonTextWeb-Medium', helvetica, sans-serif;
+        text-transform: uppercase;
+        font-size: 14px; }
+      .top-bar ul li a:hover, .top-bar ul li a:focus {
+        color: #cbcbcb; }
+
+.top-bar-left {
+  z-index: 9999; }
+
+.anchor {
+  display: block;
+  height: 50px;
+  /*same height as header*/
+  margin-top: -50px;
+  /*same height as header*/
+  visibility: hidden; }
