@@ -2908,10 +2908,16 @@ h1, h2 {
   font-weight: 700;
   text-transform: uppercase; }
 
+h1 {
+  font-size: 32px; }
+
+h2 {
+  font-size: 18px; }
+
 p {
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px; }
 
 ul {
