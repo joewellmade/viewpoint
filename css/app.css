@@ -2899,6 +2899,9 @@ body {
   /*same height as header*/
   visibility: hidden; }
 
+p {
+  text-align: center; }
+
 img.logo {
   display: block;
   margin: 120px auto; }
