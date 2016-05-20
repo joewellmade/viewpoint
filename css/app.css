@@ -2902,13 +2902,21 @@ body {
 h1, h2, h3, h4, h5, h6, p {
   text-align: center; }
 
-h1 {
+h1, h2 {
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase; }
 
 p {
+  font-family: "brandon-grotesque",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px; }
+
+ul {
+  list-style: none;
+  text-align: center;
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 400;
