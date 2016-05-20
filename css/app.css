@@ -2865,7 +2865,7 @@ VIEWPOINT STYLES
 ********************************************/
 body {
   background-color: #242F6B;
-  padding-top: 60px; }
+  padding-top: 0; }
 
 #main-menu {
   position: fixed;
@@ -2898,3 +2898,11 @@ body {
   margin-top: -50px;
   /*same height as header*/
   visibility: hidden; }
+
+img.logo {
+  display: block;
+  margin: 120px auto; }
+
+.header {
+  background: #ccc;
+  height: 400px; }
