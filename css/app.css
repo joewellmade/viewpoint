@@ -2911,7 +2911,8 @@ h1 {
 p {
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 18px; }
 
 img.logo {
   display: block;
