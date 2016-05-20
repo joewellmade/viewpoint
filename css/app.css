@@ -2909,16 +2909,16 @@ h1, h2 {
   text-transform: uppercase; }
 
 h1 {
-  font-size: 32px; }
+  font-size: 38px; }
 
 h2 {
-  font-size: 18px; }
+  font-size: 21px; }
 
 p {
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px; }
+  font-size: 21px; }
 
 ul {
   list-style: none;
@@ -2926,7 +2926,7 @@ ul {
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px; }
+  font-size: 21px; }
 
 img.logo {
   display: block;
