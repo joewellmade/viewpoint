@@ -3849,8 +3849,8 @@ img.logo {
   margin: 120px auto; }
 
 .logo {
-  -webkit-filter: drop-shadow(0 0 15px #000);
-  filter: drop-shadow(0 0 10px #000);
+  -webkit-filter: drop-shadow(0 0 40px #000);
+  filter: drop-shadow(0 0 40px #000);
   /* Same syntax as box-shadow */ }
 
 .circle {
