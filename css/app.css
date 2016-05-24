@@ -3862,7 +3862,8 @@ img.logo {
 .logo {
   -webkit-filter: drop-shadow(0 0 40px #000);
   filter: drop-shadow(0 0 40px #000);
-  /* Same syntax as box-shadow */ }
+  /* Same syntax as box-shadow */
+  padding: 0 10px; }
 
 .circle {
   display: block;
