@@ -3878,7 +3878,7 @@ img.logo {
   position: relative; }
 
 .orbit-previous:hover, .orbit-next:hover, .orbit-previous:active, .orbit-next:active, .orbit-previous:focus, .orbit-next:focus {
-  background-color: rgba(36, 47, 107, 0.85); }
+  background-color: rgba(36, 47, 107, 0.5); }
 
 .header {
   position: absolute;
@@ -3888,7 +3888,7 @@ img.logo {
   height: auto; }
 
 .about {
-  margin-top: 20px; }
+  margin-top: 40px; }
 
 .team {
   margin-top: 40px; }
