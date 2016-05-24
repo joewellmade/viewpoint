@@ -3916,7 +3916,9 @@ img.small-logo {
     background: transparent;
     height: auto; }
   img.logo {
-    width: 75%; } }
+    width: 75%; }
+  .testimonial {
+    padding: 20px 20px; } }
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   body {
