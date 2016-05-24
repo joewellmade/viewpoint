@@ -3763,9 +3763,11 @@ VIEWPOINT STYLES
 ********************************************/
 body {
   padding-top: 0;
-  background: url("../img/background.svg");
+  background: url("../img/background.svg") fixed;
   background-repeat: no-repeat;
-  background-color: #242F6B; }
+  background-color: #242F6B;
+  background-size: cover;
+  -webkit-background-origin: border; }
 
 #main-menu {
   position: fixed;
@@ -3839,10 +3841,18 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 32px; }
+  line-height: 32px;
+  margin: 0;
+  padding: 0; }
 
 li {
   padding: 0; }
+
+a, a:visited {
+  color: #fefefe; }
+
+a:hover, a:focus, a:active {
+  color: #cacaca !important; }
 
 img.logo {
   display: block;
@@ -3876,6 +3886,12 @@ img.logo {
 
 .about {
   margin-top: 20px; }
+
+.testimonials {
+  margin-top: 40px; }
+
+.testimonials h3 {
+  text-transform: uppercase; }
 
 @media screen and (max-width: 39.9375em) {
   body {
