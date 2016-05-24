@@ -3893,6 +3893,9 @@ img.logo {
 .testimonials h3 {
   text-transform: uppercase; }
 
+.testimonial {
+  padding: 20px 60px; }
+
 .contact {
   text-align: center;
   margin: 40px 0; }
