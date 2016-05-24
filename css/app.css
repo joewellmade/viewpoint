@@ -3877,6 +3877,9 @@ img.logo {
 .orbit {
   position: relative; }
 
+.orbit-previous:hover, .orbit-next:hover, .orbit-previous:active, .orbit-next:active, .orbit-previous:focus, .orbit-next:focus {
+  background-color: rgba(36, 47, 107, 0.85); }
+
 .header {
   position: absolute;
   top: 50%;
