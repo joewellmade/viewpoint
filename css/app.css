@@ -3826,7 +3826,7 @@ h3 {
   font-size: 24px;
   line-height: 32px; }
 
-p {
+p, address {
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -3892,6 +3892,14 @@ img.logo {
 
 .testimonials h3 {
   text-transform: uppercase; }
+
+.contact {
+  text-align: center;
+  margin: 40px 0; }
+
+img.small-logo {
+  display: block;
+  margin: 80px auto; }
 
 @media screen and (max-width: 39.9375em) {
   body {
