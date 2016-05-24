@@ -3894,8 +3894,9 @@ img.logo {
 
 .what-we-do {
   margin-top: 80px; }
-  .what-we-do h3 {
-    text-transform: uppercase; }
+
+.what-we-do h3 {
+  text-transform: uppercase; }
 
 .team {
   margin-top: 80px; }
