@@ -3788,7 +3788,8 @@ body {
         font-style: normal;
         font-weight: 700;
         text-transform: uppercase;
-        font-size: 16px; }
+        font-size: 16px;
+        letter-spacing: 2px; }
       .top-bar ul li a:hover, .top-bar ul li a:focus {
         color: #cbcbcb; }
 
@@ -3840,7 +3841,7 @@ ul {
   text-align: center;
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   margin: 0;
@@ -3900,6 +3901,9 @@ h3.what-we-do {
 
 .team {
   margin-top: 80px; }
+
+.circle h3 {
+  text-transform: uppercase; }
 
 .testimonials {
   margin-top: 80px; }
