@@ -3860,8 +3860,8 @@ img.logo {
   margin: 120px auto; }
 
 .logo {
-  -webkit-filter: drop-shadow(0 0 40px #000);
-  filter: drop-shadow(0 0 40px #000);
+  -webkit-filter: drop-shadow(0 0 50px #333);
+  filter: drop-shadow(0 0 50px #333);
   /* Same syntax as box-shadow */
   padding: 0 10px; }
 
@@ -3872,6 +3872,9 @@ img.logo {
 
 .circle img {
   margin-bottom: 20px; }
+
+.circle h2 {
+  margin-bottom: 0; }
 
 .orbit-container {
   height: 100%; }
@@ -3890,10 +3893,7 @@ img.logo {
   height: auto; }
 
 .about {
-  margin-top: 80px; }
-
-.what-we-do {
-  margin-top: 80px; }
+  margin-top: 40px; }
 
 h3.what-we-do {
   text-transform: uppercase; }
